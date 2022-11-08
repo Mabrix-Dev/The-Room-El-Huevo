@@ -80,7 +80,7 @@ p {
 	color: #444444;
 	font-weight: 400;
 	line-height: 26px;
-	margin: 0 0 15px 0;
+	margin: 62px, 0px 0;
 }
 
 img {
@@ -399,8 +399,9 @@ ol {
 -----------------------*/
 
 .hero {
-	padding-top: 400px;
-	padding-bottom: 295px;
+	padding-top: 200px;
+	padding-bottom: 595px;
+	width: 100%;
 	position: relative;
 }
 
@@ -875,7 +876,7 @@ ol {
 }
 
 .countdown__text h1 {
-	font-size: 90px;
+	font-size: 130px;
 	color: #ffffff;
 	font-family: "Rockville Solid Regular";
 	color: #ffffff;
@@ -1018,7 +1019,7 @@ ol {
 	padding-top: 300px;
 	padding-bottom: 60px;
 	margin-top: -547px;
-	height: 549px;
+	height: 650px;
 }
 
 .footer.footer--normal {
@@ -1562,7 +1563,7 @@ ol {
 .service__item {
 	background: #5c00ce;
 	height: 320px;
-	padding: 70px 40px 40px 70px;
+	padding: 30px 40px 40px 40px;
 }
 
 .service__item.deep-bg {
