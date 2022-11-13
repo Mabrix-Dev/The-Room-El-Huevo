@@ -35,7 +35,7 @@
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.8,
+				volume: 0.1,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,

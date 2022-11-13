@@ -1,10 +1,10 @@
 /******************************************************************
-  Template Name: DJoz
-  Description:  DJoz Music HTML Template
-  Author: Colorlib
-  Author URI: https://colorlib.com
+  Template Name: The Room
+  Description:  my primera pagina web
+  Author: Mabriix
+  Author URI: https://www.instagram.com/stories/mabriix/2970118038429355902/
   Version: 1.0
-  Created: Colorlib
+  
 ******************************************************************/
 
 /*------------------------------------------------------------------
@@ -84,7 +84,7 @@ p {
 }
 
 img {
-	max-width: 100%;
+	max-width: 80%;
 }
 
 input:focus,
@@ -129,7 +129,7 @@ ol {
 }
 
 .section-title h1 {
-	font-size: 100px;
+	font-size: 89px;
 	color: #f2f2f2;
 	font-family: "Rockville Solid Regular";
 	position: absolute;
@@ -289,9 +289,9 @@ ol {
 }
 
 .header__menu {
-	padding: 31px 0 27px;
+	padding: 70px 0 27px;
 	display: inline-block;
-	margin-right: 45px;
+	margin-right: 150px;
 }
 
 .header__menu ul li {
@@ -400,7 +400,7 @@ ol {
 
 .hero {
 	padding-top: 200px;
-	padding-bottom: 595px;
+	padding-bottom: 412px;
 	width: 100%;
 	position: relative;
 }
@@ -416,7 +416,7 @@ ol {
 }
 
 .hero__text h1 {
-	font-size: 110px;
+	font-size: 150px;
 	font-family: "Rockville Solid Regular";
 	color: #ffffff;
 	margin-bottom: 20px;
@@ -674,6 +674,7 @@ ol {
 
 .jp-play-bar {
 	position: relative;
+	width: 0%;
 	height: 100%;
 	background: #5c00ce;
 	overflow: visible !important;
@@ -1016,10 +1017,10 @@ ol {
 -----------------------*/
 
 .footer {
-	padding-top: 300px;
+	padding-top: 568px;
 	padding-bottom: 60px;
-	margin-top: -547px;
-	height: 650px;
+	margin-top: -500px;
+	height: 790px;
 }
 
 .footer.footer--normal {
@@ -2000,14 +2001,14 @@ ol {
 }
 
 .blog__item__text {
-	text-align: center;
+	text-align: justify;
 	background: #ffffff;
 	padding: 20px 20px 25px;
 }
 
 .blog__item__text span {
-	font-size: 13px;
-	text-transform: uppercase;
+	font-size: 15px;
+	text-transform:initial;
 	color: #5c00ce;
 }
 
@@ -2100,7 +2101,7 @@ ol {
 	color: #111111;
 	font-weight: 700;
 	position: relative;
-	padding-bottom: 20px;
+	padding-bottom: 56px;
 }
 
 .blog__sidebar__title h4::before {
