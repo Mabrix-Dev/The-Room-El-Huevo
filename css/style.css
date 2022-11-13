@@ -80,11 +80,11 @@ p {
 	color: #444444;
 	font-weight: 400;
 	line-height: 26px;
-	margin: 62px, 0px 0;
+	margin: 0 0 15px 0;
 }
 
 img {
-	max-width: 80%;
+	max-width: 100%;
 }
 
 input:focus,
@@ -129,7 +129,7 @@ ol {
 }
 
 .section-title h1 {
-	font-size: 89px;
+	font-size: 70px;
 	color: #f2f2f2;
 	font-family: "Rockville Solid Regular";
 	position: absolute;
@@ -146,8 +146,8 @@ ol {
 }
 
 .spad {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 205px;
+	padding-bottom: 454px;
 }
 
 .text-white h1,
@@ -263,7 +263,7 @@ ol {
 -----------------------*/
 
 .header {
-	background: rgba(42, 1, 74, 0.5);
+	background: #11111187;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -273,7 +273,7 @@ ol {
 
 .header.header--normal {
 	position: relative;
-	background: #290849;
+	background: #010002;
 }
 
 .header__logo {
@@ -285,13 +285,13 @@ ol {
 }
 
 .header__nav {
-	text-align: right;
+	text-align: center;
 }
 
 .header__menu {
-	padding: 70px 0 27px;
+	padding: 31px 27px;
 	display: inline-block;
-	margin-right: 150px;
+	margin-right: 45px;
 }
 
 .header__menu ul li {
@@ -399,10 +399,10 @@ ol {
 -----------------------*/
 
 .hero {
-	padding-top: 200px;
-	padding-bottom: 412px;
+	/* padding-top: 364px;
+	padding-bottom: 295px;
 	width: 100%;
-	position: relative;
+	position: relative; */
 }
 
 .hero__text {
@@ -419,8 +419,8 @@ ol {
 	font-size: 150px;
 	font-family: "Rockville Solid Regular";
 	color: #ffffff;
-	margin-bottom: 20px;
-	margin-top: 22px;
+	margin-bottom: 65px;
+	margin-top: 11px;
 }
 
 .hero__text p {
@@ -1017,10 +1017,10 @@ ol {
 -----------------------*/
 
 .footer {
-	padding-top: 568px;
+	padding-top: 300px;
 	padding-bottom: 60px;
-	margin-top: -500px;
-	height: 790px;
+	margin-top: -547px;
+	height: 594px;
 }
 
 .footer.footer--normal {
@@ -2621,7 +2621,10 @@ ol {
 
 @media only screen and (min-width: 1200px) {
 	.container {
-		max-width: 1170px;
+		width: 75vw;
+		max-width: 1000px;
+		min-width: 320px;
+		margin: auto;
 	}
 }
 
