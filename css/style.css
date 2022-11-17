@@ -75,12 +75,12 @@ h6 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 23px;
 	font-family: "Now Regular";
 	color: #444444;
 	font-weight: 400;
-	line-height: 26px;
-	margin: 0 0 15px 0;
+	line-height: 40px;
+	margin: 0 0 25px 0;
 }
 
 img {
@@ -126,14 +126,15 @@ ol {
 	color: #111111;
 	font-weight: 700;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .section-title h1 {
-	font-size: 70px;
-	color: #f2f2f2;
+	font-size: 50px;
+	color: #6666663d;
 	font-family: "Rockville Solid Regular";
 	position: absolute;
-	left: 0;
+	left: 155px;
 	top: -45px;
 	width: 100%;
 	z-index: -1;
@@ -147,7 +148,7 @@ ol {
 
 .spad {
 	padding-top: 205px;
-	padding-bottom: 454px;
+	padding-bottom: 590px;
 }
 
 .text-white h1,
@@ -606,7 +607,7 @@ ol {
 }
 
 .track__content {
-	height: 502px;
+	height: 395px;
 	overflow-y: auto;
 }
 
@@ -1019,7 +1020,7 @@ ol {
 .footer {
 	padding-top: 300px;
 	padding-bottom: 60px;
-	margin-top: -547px;
+	margin-top: -593px;
 	height: 594px;
 }
 
@@ -1908,8 +1909,8 @@ ol {
 }
 
 .blog__large__pic {
-	height: 370px;
-	position: relative;
+	height: 500px;
+	position:relative;
 }
 
 .blog__large__pic a {
@@ -2632,7 +2633,7 @@ ol {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.header__menu ul li {
-		margin-right: 18px;
+		margin-right: 1000px;
 	}
 	.header__menu {
 		margin-right: 30px;
@@ -2936,4 +2937,8 @@ ol {
 		margin-top: -970px;
 		background-position: top 0 left 19%;
 	}
+}
+.baner {
+	z-index: 500 ;
+	background-position: top 50% left 50%;
 }
